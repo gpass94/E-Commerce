@@ -10,6 +10,8 @@ import Home from './components/Home';
 import Books from './components/Books';
 import ContactUs from './components/ContactUs';
 import Appliances from './components/Appliances';
+import Clothing from './components/Clothing';
+
 
 
 ReactDOM.render(
@@ -22,6 +24,8 @@ ReactDOM.render(
         <Route path='/books' component={Books} />
         <Route path='/contactUs' component={ContactUs} />
         <Route path='/appliances' component={Appliances} />
+        <Route path='/clothing' component={Clothing} />
+
       </Switch>
 
     </BaseLayout>
