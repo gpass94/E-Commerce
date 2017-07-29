@@ -1,3 +1,14 @@
 .nav-link {
   box-shadow: inset 0px 0px 4px 1px black;
 }
+
+.categoriesDiv {
+  height: 150px;
+  width: 100%;
+
+}
+
+.products {
+  height: 33px;
+  width: 40%;
+}

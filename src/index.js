@@ -11,6 +11,7 @@ import Books from './components/Books';
 import ContactUs from './components/ContactUs';
 import Appliances from './components/Appliances';
 import Clothing from './components/Clothing';
+import Entertainment from './components/Entertainment';
 
 
 
@@ -25,6 +26,7 @@ ReactDOM.render(
         <Route path='/contactUs' component={ContactUs} />
         <Route path='/appliances' component={Appliances} />
         <Route path='/clothing' component={Clothing} />
+        <Route path='/entertainment' component={Entertainment} />
 
       </Switch>
 
