@@ -6,11 +6,10 @@ export default class Checkout extends Component {
         super();
     }
 
-    render( {
+    render() {
 
-        return ()
+        return (
 
-            )
-        }
-
-    }    
+        )
+    }
+}    
