@@ -12,38 +12,56 @@ export default class Books extends Component {
           <div className='categoriesDiv'>
            <h1>Non-Fiction</h1>
             <div className='products'>
+              <img src="../img/product.jpg" />
+              <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. '</p>
             </div>
             <div className='products'>
+              <img src="../img/product.jpg" />
+              <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. '</p>
             </div>
             <div className='products'>
+              <img src="../img/product.jpg" />
+              <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
             </div>
-          </div>
+           </div>
 
-          <div className='categoresDiv'>
+
+          <div className='categoriesDiv'>
            <h1>Sci-Fi</h1>
            <div className='products'>
+            <img src="../img/product.jpg" />
+           <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies     aliquet sit amet, imperdiet id mi. ' </p>
            </div>
            <div className='products'>
+            <img src="../img/product.jpg" />
+             <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
            </div>
            <div className='products'>
+            <img src="../img/product.jpg" />
+             <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
            </div>
+
           </div>
 
-          <div className='categoresDiv'>
+
+
+          <div className='categoriesDiv'>
            <h1>Children</h1>
            <div className='products'>
+            <img src="../img/product.jpg" />
+           <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+            </div>
+            <div className='products'>
+              <img src="../img/product.jpg" />
+              <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+            </div>
+            <div className='products'>
+              <img src="../img/product.jpg" />
+              <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+            </div>
            </div>
-           <div className='products'>
-           </div>
-           <div className='products'>
-           </div>
+
           </div>
-
-
-
-
-
-        </div>
     )
   }
 }
