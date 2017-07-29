@@ -9,6 +9,7 @@ import BaseLayout from './components/BaseLayout';
 import Home from './components/Home';
 import Books from './components/Books';
 import ContactUs from './components/ContactUs';
+import Appliances from './components/Appliances';
 
 
 ReactDOM.render(
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route exact path='/' component={Home} />
         <Route path='/books' component={Books} />
         <Route path='/contactUs' component={ContactUs} />
+        <Route path='/appliances' component={Appliances} />
       </Switch>
 
     </BaseLayout>
