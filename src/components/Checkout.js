@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../styles/Checkout.css';
 
 export default class Checkout extends Component {
-
     constructor(props){
         super(props);
     }
@@ -54,7 +53,7 @@ export default class Checkout extends Component {
 
                 {/* // Items table */}
 
-            <table>
+            <table className="ordertable">
                 <tr>
                 <th>My Cart</th>
                 <td>
