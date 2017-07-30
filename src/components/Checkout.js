@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
 import '../styles/Checkout.css';
 
 export default class Checkout extends Component {
-<<<<<<< HEAD
+
     constructor(props){
         super(props);
     }
@@ -17,7 +16,7 @@ export default class Checkout extends Component {
                 <h1>Checkout</h1>
 
 
-                        // Billing form
+                        {/* // Billing form */}
 
 
                 <form action="form">
@@ -25,40 +24,40 @@ export default class Checkout extends Component {
                     <div className="fieldset">
                         <fieldset>
                             <legend>Billing Info</legend>
-                            <p><label className="field" for="Name">*<span>Name</label></p>
-                            <p><label className="field" for="Card Number">*<span>Card Info</label></p>
-                            <p><label className="field" for="Expiration Date">*<span>Expiration Date</label></p>
-                            <p><label className="field" for="CVC">*<span>CVC</label></p>
-                            <p><label className="field" for="Address">*<span>Address</label></p>
-                            <p><label className="field" for="City">*<span>City</label></p>
-                            <p><label className="field" for="State">*<span>State</label></p>
-                            <p><label className="field" for="Zipcode">*<span>Zipcode</label></p>
+                            <p><label className="field" for="Name">*<span>Name</span></label></p>
+                            <p><label className="field" for="Card Number">*<span>Card Info</span></label></p>
+                            <p><label className="field" for="Expiration Date">*<span>Expiration Date</span></label></p>
+                            <p><label className="field" for="CVC">*<span>CVC</span></label></p>
+                            <p><label className="field" for="Address">*<span>Address</span></label></p>
+                            <p><label className="field" for="City">*<span>City</span></label></p>
+                            <p><label className="field" for="State">*<span>State</span></label></p>
+                            <p><label className="field" for="Zipcode">*<span>Zipcode</span></label></p>
                         </fieldset>
                     </div>
 
 
-                            // Shipping form
+                            {/* // Shipping form */}
 
 
                     <div className="fieldset">
                         <fieldset>
                             <legend>Shipping Info</legend>
-                            <p><label className="field" for="Name">*<span>Name</label></p>
-                            <p><label className="field" for="Address">*<span>Address</label></p>
-                            <p><label className="field" for="City">*<span>City</label></p>
-                            <p><label className="field" for="State">*<span>State</label></p>
-                            <p><label className="field" for="Zipcode">*<span>Zipcode</label></p>
-                            <p><label className="field" for="Phone">*<span>Phone Number</label></p>
+                            <p><label className="field" for="Name">*<span>Name</span></label></p>
+                            <p><label className="field" for="Address">*<span>Address</span></label></p>
+                            <p><label className="field" for="City">*<span>City</span></label></p>
+                            <p><label className="field" for="State">*<span>State</span></label></p>
+                            <p><label className="field" for="Zipcode">*<span>Zipcode</span></label></p>
+                            <p><label className="field" for="Phone">*<span>Phone Number</span></label></p>
                         </fieldset>
                     </div>
                 </form>
 
-                // Items table
+                {/* // Items table */}
 
             <table>
                 <tr>
                 <th>My Cart</th>
-                <td>>
+                <td>
                 <ul>
                 <li>Apples</li>
                 <li>Oranges</li>
@@ -78,25 +77,10 @@ export default class Checkout extends Component {
                 </td>
                 </tr>
                 </table>
-                <input type="submit" value="Confirm Order">
-
+                <input type="submit" value="Confirm Order" />
 
             </div>
 
-
-
-
-            )
-        }
-
-    }
-=======
-  render() {
-    return(
-      <div className='checkoutDiv'>
-        <p> Checkout Page Working</p>
-      </div>
-    )
+    );
   }
 }
->>>>>>> fb403aea3df2bc2261af6b8648c16c64011aa7b5
