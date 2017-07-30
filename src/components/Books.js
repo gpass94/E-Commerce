@@ -22,6 +22,9 @@ export default class Books extends Component {
             <div className='products'>
               <img src="../img/product.jpg" />
               <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+              <a href='#'>
+              my link
+              </a>
             </div>
            </div>
 
@@ -35,10 +38,16 @@ export default class Books extends Component {
            <div className='products'>
             <img src="../img/product.jpg" />
              <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+             <a href='#'>
+             my link
+             </a>
            </div>
            <div className='products'>
             <img src="../img/product.jpg" />
              <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+             <a href='#'>
+             my link
+             </a>
            </div>
 
           </div>
@@ -50,14 +59,23 @@ export default class Books extends Component {
            <div className='products'>
             <img src="../img/product.jpg" />
            <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+           <a href='#'>
+           my link
+           </a>
             </div>
             <div className='products'>
               <img src="../img/product.jpg" />
               <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+              <a href='#'>
+              my link
+              </a>
             </div>
             <div className='products'>
               <img src="../img/product.jpg" />
               <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mauris leo, ultricies nec aliquet sit amet, imperdiet id mi. ' </p>
+              <a href='#'>
+              my link
+              </a>
             </div>
            </div>
 
