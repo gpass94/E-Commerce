@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom';
 import '../styles/Checkout.css';
 
 export default class Checkout extends Component {
+<<<<<<< HEAD
     constructor(props){
         super(props);
     }
@@ -88,3 +90,13 @@ export default class Checkout extends Component {
         }
 
     }
+=======
+  render() {
+    return(
+      <div className='checkoutDiv'>
+        <p> Checkout Page Working</p>
+      </div>
+    )
+  }
+}
+>>>>>>> fb403aea3df2bc2261af6b8648c16c64011aa7b5
