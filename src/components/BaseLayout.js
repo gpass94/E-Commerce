@@ -16,9 +16,7 @@ export default class BaseLayout extends Component {
                   <li className="nav-item">
                     <NavLink activeClassName='selected' className="nav-link" to='/'>Home</NavLink>
                   </li>
-                  <li className="nav-item">
-                    <NavLink activeClassName='selected' className="nav-link" to="/contactUs">Contact Us</NavLink>
-                  </li>
+
                   <li className="nav-item">
                     <NavLink activeClassName='selected' className="nav-link" to="/books">Books</NavLink>
                   </li>
@@ -40,6 +38,20 @@ export default class BaseLayout extends Component {
         </nav>
 
         {this.props.children}
+
+        <footer>
+          <p className='footer-p fp1'>Thank you for visiting our site today. </p>
+           <p className='footer-p fp2'> Please feel
+          free to contact us if you have any questions.</p>
+          <nav className='footerNav'>
+            <ul className="nav footerUl">
+              <li className="nav-item">
+                <NavLink activeClassName='selected' className='footerLink' activeStyle={{color: 'lightBlue'}} to="/contactUs">Contact Us</NavLink>
+              </li>
+            </ul>
+          </nav>
+
+        </footer>
 
       </div>
     )

@@ -13,7 +13,7 @@ export default class Data extends Component {
   render(){
     return(
       <div className='dataDiv'>
-
+        <p>Happy Day !</p>
       </div>
     )
   }
