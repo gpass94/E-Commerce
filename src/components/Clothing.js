@@ -6,7 +6,7 @@ export default class Clothing extends Component {
       <div className='clothing'>
         <p>Clothing is working</p>
         <h2>T-Shirts</h2>
-        <h2>Pants<h/2>
+        <h2>Pants</h2>
         <h2>Suits</h2>
       </div>
     )
