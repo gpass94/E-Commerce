@@ -6,7 +6,11 @@ export default class Home extends Component {
   render() {
     return (
       <div className="App">
-        <p>Home Working</p>
+
+        <div className='homeDiv-1'>
+          <h2>Welcome to the New Amazon !</h2>
+        </div>
+
       </div>
     );
   }
