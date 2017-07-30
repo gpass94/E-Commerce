@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -16,4 +19,17 @@
 }
 .homeDiv-1 {
   margin-top: 1em;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.carousel-inner {
+  width: 50%;
+}
+.homeImgs {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
 }
