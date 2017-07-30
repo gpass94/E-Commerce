@@ -1,0 +1,65 @@
+
+/*Shipping and billing form*/
+
+div.fieldset{
+    border: solid black thin;
+    width: 500px;
+    background-color: #ffffb0;
+}
+
+fieldset {
+    border: none;
+    margin: 0px 0px 0px -10px;
+    padding: 0px;
+}
+
+legend {
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+label.field {
+    text-align: right;
+    width: 100px;
+    float: left;
+    font-weight: bold;
+}
+
+input.textbox-300{
+    width: 300px;
+    float: left;
+}
+
+fieldset p {
+    clear: both;
+    padding: 5px;
+}
+
+label span, .required {
+    color: red;
+    font-weight: bold;
+}
+
+/*Items Table*/
+
+#columns {
+width: 600px;
+}
+
+#columns .column {
+position: relative;
+width: 46%;
+padding: 1%;
+border: solid 1px #000;
+}
+
+#columns .left {
+float: left;
+}
+
+#columns .right {
+float: right;
+}

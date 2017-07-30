@@ -16,9 +16,7 @@ export default class BaseLayout extends Component {
                   <li className="nav-item">
                     <NavLink activeClassName='selected' className="nav-link" to='/'>Home</NavLink>
                   </li>
-                  <li className="nav-item">
-                    <NavLink activeClassName='selected' className="nav-link" to="/contactUs">Contact Us</NavLink>
-                  </li>
+
                   <li className="nav-item">
                     <NavLink activeClassName='selected' className="nav-link" to="/books">Books</NavLink>
                   </li>
@@ -27,6 +25,7 @@ export default class BaseLayout extends Component {
                     <NavLink activeClassName='selected' className="nav-link" to="/appliances">Appliances</NavLink>
                   </li>
 
+<<<<<<< HEAD
                   <li className="nav-item">
                     <NavLink activeClassName='selected' className="nav-link" to="/clothing">Clothing</NavLink>
                   </li>
@@ -35,12 +34,35 @@ export default class BaseLayout extends Component {
                     <NavLink activeClassName='selected' className="nav-link" to="/entertainment">Entertainment</NavLink>
                   </li>
 
+=======
+                  <li className ="nav-item">
+                    <NavLink activeClassName='selected' className="nav-link" to="/clothing">Clothing</NavLink>
+                  </li>
+
+                  <li className="nav-item">
+                    <NavLink activeClassName='selected' className="nav-link" to="/checkout">Checkout</NavLink>
+                  </li>
+>>>>>>> 6709904e0406be99fe921f8ad1064325506732fd
                 </ul>
             </div>
           </div>
         </nav>
 
         {this.props.children}
+
+        <footer>
+          <p className='footer-p fp1'>Thank you for visiting our site today. </p>
+           <p className='footer-p fp2'> Please feel
+          free to contact us if you have any questions.</p>
+          <nav className='footerNav'>
+            <ul className="nav footerUl">
+              <li className="nav-item">
+                <NavLink activeClassName='selected' className='footerLink' activeStyle={{color: 'lightBlue'}} to="/contactUs">Contact Us</NavLink>
+              </li>
+            </ul>
+          </nav>
+
+        </footer>
 
       </div>
     )
