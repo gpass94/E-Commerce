@@ -54,7 +54,7 @@ export default class Books extends Component {
 
 
 
-          <div className='categoriesDiv'>
+          <div className='categoriesDiv bottomCategory'>
            <h1>Children</h1>
            <div className='products'>
             <img src="../img/product.jpg" />

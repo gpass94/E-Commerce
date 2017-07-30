@@ -17,26 +17,20 @@ export default class BaseLayout extends Component {
                     <NavLink activeClassName='selected' className="nav-link" to='/'>Home</NavLink>
                   </li>
 
+                  <li className ="nav-item">
+                    <NavLink activeClassName='selected' className="nav-link" to="/clothing">Clothing</NavLink>
+                  </li>
+
                   <li className="nav-item">
                     <NavLink activeClassName='selected' className="nav-link" to="/books">Books</NavLink>
                   </li>
 
                   <li className ="nav-item">
-                    <NavLink activeClassName='selected' className="nav-link" to="/appliances">Appliances</NavLink>
-                  </li>
-
-
-                  <li className="nav-item">
-                    <NavLink activeClassName='selected' className="nav-link" to="/clothing">Clothing</NavLink>
-                  </li>
-
-                  <li className ="nav-item">
                     <NavLink activeClassName='selected' className="nav-link" to="/entertainment">Entertainment</NavLink>
                   </li>
-
-
+                  
                   <li className ="nav-item">
-                    <NavLink activeClassName='selected' className="nav-link" to="/clothing">Clothing</NavLink>
+                    <NavLink activeClassName='selected' className="nav-link" to="/appliances">Appliances</NavLink>
                   </li>
 
                   <li className="nav-item">
