@@ -6,7 +6,7 @@ export default class Checkout extends Component {
         super(props);
     }
 
-    render( {
+    render() {
 
         return (
 
@@ -82,7 +82,7 @@ export default class Checkout extends Component {
             </div>
 
 
-                )
+
 
             )
         }
