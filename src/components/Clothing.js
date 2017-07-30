@@ -5,8 +5,9 @@ export default class Clothing extends Component {
     return(
       <div className='clothing'>
         <p>Clothing is working</p>
-        <h2></h2>
-
+        <h2>T-Shirts</h2>
+        <h2>Pants</h2>
+        <h2>Suits</h2>
       </div>
     )
   }
