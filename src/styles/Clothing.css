@@ -1,0 +1,52 @@
+.clothing {
+  height: 100px;
+  width: 100%;
+}
+
+
+
+.categories-tshirt {
+  height: 250px;
+  width: 25%;
+  padding: 25px;
+  float: left;
+  margin: 10px 4% 10px 4%;
+  border: 2px solid black;
+  text-align:center;
+}
+
+.categories-tshirt img{
+  height:100px;
+  width: 100px;
+}
+
+.categories-pants {
+  height: 250px;
+  width: 25%;
+  padding: 25px;
+  float: left;
+  margin: 10px 4% 10px 4%;
+  border: 2px solid black;
+  text-align:center;
+}
+
+.categories-pants img{
+  height:100px;
+  width: 100px;
+}
+
+
+.categories-suits {
+  height: 250px;
+  width: 25%;
+  padding: 25px;
+  float: left;
+  margin: 10px 4% 10px 4%;
+  border: 2px solid black;
+  text-align:center;
+}
+
+.categories-suits img{
+  height:100px;
+  width: 100px;
+}
