@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/Clothing.css';
-import TShirt from '../imgs/clothing/MensSuit.jpeg';
+import TShirt from '../imgs/clothing/TShirt.jpg';
 import Pants from '../imgs/clothing/Pants.jpeg';
 import Suits from '../imgs/clothing/MensSuit.jpeg';
 
