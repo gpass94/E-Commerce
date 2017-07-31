@@ -38,7 +38,8 @@ export default class Checkout extends Component {
                             <p><label className="field" for="State"><span className="asterik">*</span><span>State:</span></label></p>
                             <input className= "inputfield" type = "text" name = "input" id = "reguired" required/>
                             <p><label className="field" for="Zipcode"><span className="asterik">*</span><span>Zipcode:</span></label></p>
-                            <input className= "inputfield" type = "text" name = "input" id = "reguired" required/>
+                            <input className= "inputfield" type = "text" name = "billName" id = "billingName" required/><br/>
+                            <input className="formbtn" type="submit" value="submit" />
                         </fieldset>
                     </div>
 
@@ -49,49 +50,41 @@ export default class Checkout extends Component {
                     <div className="fieldset">
                         <fieldset>
                             <legend>Shipping Info</legend>
-                            <p><label className="field" for="Name"><span className="asterik">*</span><span>Name</span></label></p>
+                            <p><label className="field" for="Name"><span className="asterik">*</span><span>Name: </span></label></p>
                             <input className= "inputfield" type = "text" name = "billName" id = "billingName" required/>
-                            <p><label className="field" for="Address"><span className="asterik">*</span><span>Address</span></label></p>
+                            <p><label className="field" for="Address"><span className="asterik">*</span><span>Address:</span></label></p>
                             <input  className= "inputfield" type = "text" name = "billName" id = "billingName" required/>
-                            <p><label className="field" for="City"><span className="asterik">*</span><span>City</span></label></p>
+                            <p><label className="field" for="City"><span className="asterik">*</span><span>City:</span></label></p>
                             <input className= "inputfield" type = "text" name = "billName" id = "billingName" required/>
-                            <p><label className="field" for="State"><span className="asterik">*</span><span>State</span></label></p>
+                            <p><label className="field" for="State"><span className="asterik">*</span><span>State:</span></label></p>
                             <input className= "inputfield" type = "text" name = "billName" id = "billingName" required/>
-                            <p><label className="field" for="Zipcode"><span className="asterik">*</span><span>Zipcode</span></label></p>
+                            <p><label className="field" for="Zipcode"><span className="asterik">*</span><span>Zipcode:</span></label></p>
                             <input className= "inputfield"type = "text" name = "billName" id = "billingName" required/>
-                            <p><label className="field" for="Phone"><span className="asterik">*</span><span>Phone Number</span></label></p>
-                            <input className= "inputfield" type = "text" name = "billName" id = "billingName" required/>
+                            <p><label className="field" for="Phone"><span className="asterik">*</span><span>Phone Number:</span></label></p>
+                            <input className= "inputfield" type = "text" name = "billName" id = "billingName" required/><br/>
+                            <input className="formbtn" type="submit" value="Submit" />
                         </fieldset>
                     </div>
                 </form>
 
                 {/* // Items table */}
+                <div className="carttable">
+                <h3 id="tabletitle">My Cart</h3>
 
-            <table className="ordertable">
-                    <tr>
-                        <th>My Cart</th>
-                        <td>
-                            <ul>
-                                <li>Apples</li>
-                                <li>Oranges</li>
-                                <li>Bananas</li>
-                            </ul>
-                        </td>
-                    </tr>
+                <table class="table">
+                        <tr>
+                            <th>Items</th><br/>
+                            <th className="price">Price</th>
+                        </tr>
 
-                    <tr>
-                        <th>Price</th>
-                        <td>
-                            <ul>
-                                <li>Apples</li>
-                                <li>Oranges</li>
-                                <li>Bananas</li>
-                            </ul>
-                        </td>
-                        <th>Total Cost</th>
-                    </tr>
+                        <tr class="coloredline">
+                            <td>Business Hours + Weekly Kiln</td><br/>
+                            <br/><td className="price">$50</td>
+                        </tr>
+
+                        <tf>Total Cost</tf>
                 </table>
-                <input className="btn" type="submit" value="Confirm Order" />
+                </div>
             </div>
 
     );
